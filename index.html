@@ -1,48 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML DAY 1</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./main.css">
-</head>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('/w3images/forestbridge.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
 <body>
-<main role="main" class="main-wrapper">
-    <header class="main-header">
-        <img class="logo" src="./img/SS_logo.svg" alt="Main Logo">
-        <!--The menu element will have a display none for screen > 700px-->
-        <div class="menu">
-            <img src="./img/ham.svg" alt="Menu button">
-        </div>
-        <!--The nav element will have a display none for screen < 700px-->
-        <nav class="site-nav">
-            <!--The UL will have a display flex property & justify-content
-            space-between-->
-            <ul>
-                <li>Work</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
-    <section class="main-content-section standard-mar-btm">
-        <div class="image-block"></div>
-        <div class="inner-content">
-            <h5 class="content-small-header gold-color">Branding / Packaging</h5>
-            <h2 class="content-large-header">Some awesome title</h2>
-            <p class="content-p">Come on, show 'em what you're worth. Infect me with your love and fill me with your poison. You just gotta ignite the light and let it shine. This is transcendental, on another level, boy, you're my lucky star. So hot and heavy, 'Til dawn. I stood for nothing, so I fell for everything. Wild wild west coast, hese are the girls I love the most. You think I'm pretty without any makeup on. I let you push me past the breaking point. Tonight, tonight, tonight, I'm walking on air. Yes, we make angels cry, raining down on earth from up above. I can feel this light that's inside of me.</p>
-        </div>
-    </section>
-    <section class="main-content-section standard-mar-btm">
-        <div class="image-block image-block-2"></div>
-        <div class="inner-content">
-            <h5 class="content-small-header">website / Branding</h5>
-            <h2 class="content-large-header">Another awesome title</h2>
-            <p class="content-p">Come on, show 'em what you're worth. Infect me with your love and fill me with your poison. You just gotta ignite the light and let it shine. This is transcendental, on another level, boy, you're my lucky star. So hot and heavy, 'Til dawn. I stood for nothing, so I fell for everything. Wild wild west coast, hese are the girls I love the most. You think I'm pretty without any makeup on. I let you push me past the breaking point. Tonight, tonight, tonight, I'm walking on air. Yes, we make angels cry, raining down on earth from up above. I can feel this light that's inside of me.</p>
-        </div>
-    </section>
-</main>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Logo
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">35 days left</p>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </div>
+</div>
+
 </body>
 </html>
